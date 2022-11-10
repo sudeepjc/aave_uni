@@ -1,0 +1,18 @@
+Commands:
+
+npm init --yes
+npm install --save-dev hardhat
+
+npx hardhat
+
+npm install --save-dev @nomicfoundation/hardhat-toolbox
+
+npm install @openzeppelin/contracts @aave/core-v3 dotenv
+
+//
+ @nomicfoundation/hardhat-network-helpers @nomicfoundation/hardhat-chai-matchers @nomiclabs/hardhat-ethers @nomiclabs/hardhat-etherscan chai ethers hardhat-gas-reporter solidity-coverage @typechain/hardhat typechain@typechain/ethers-v5 @ethersproject/abi @ethersproject/providers
+//
+
+npm install --save-dev "@ethersproject/providers" "@nomicfoundation/hardhat-network-helpers" "@nomicfoundation/hardhat-chai-matchers" "@nomiclabs/hardhat-ethers" "@types/chai" "@types/mocha" "@typechain/ethers-v5" "@typechain/hardhat" "chai" "ethers" "hardhat-gas-reporter" "solidity-coverage" "ts-node" "typechain" "typescript"
+
+npx hardhat test
